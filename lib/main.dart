@@ -5,20 +5,8 @@
 
 
 import 'package:flutter/material.dart';
+import 'src/app.dart';
 void main() {
   // text widget
-  var app = MaterialApp(
-    home: Scaffold(
-      floatingActionButton: FloatingActionButton(
-        onPressed: (){
-          print('hey there');
-        },
-        child: Icon(Icons.add),
-      ),
-      appBar: AppBar(
-        title: Text('This is an app'),
-      ),
-    ),
-  );
-  runApp(app);
+  runApp(App());
 }
